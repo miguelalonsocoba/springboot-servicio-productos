@@ -33,7 +33,7 @@ public class Producto implements Serializable {
 	@Temporal(TemporalType.DATE)
 	private Date createAt;
 
-	@Transient // Indica que el atributo no es persistento o no esta mapeado a la base de datos
+	@Transient // Indica que el atributo no es persistente o no esta mapeado a la base de datos
 	private Integer port;
 
 	/**
